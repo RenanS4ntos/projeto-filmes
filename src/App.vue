@@ -1,8 +1,8 @@
 <script setup>
+  import { useRoute } from 'vue-router'
+  const route = useRoute()
 </script>
 
 <template>
-  <div>
-    <h1>Hello world!</h1>
-  </div>
+    <router-view :key="route.path"></router-view>
 </template>
