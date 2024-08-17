@@ -9,6 +9,5 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #121214;
+  @apply bg-gradient-to-r from-slate-500 via-gray-400 to-slate-500;
 }
